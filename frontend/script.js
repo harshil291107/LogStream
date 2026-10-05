@@ -59,6 +59,16 @@ function displayLogs() {
 
     filteredLogs.forEach((logText) => {
         const log = document.createElement("div");
+        log.classList.add("log");
+
+        if (logText.includes("[INFO]")) {
+            log.classList.add("info");
+        } else if (logText.includes("[WARN]")) {
+            log.classList.add("warn");
+        } else if (logText.includes("[ERROR]")) {
+            log.classList.add("error");
+        }
+
         log.textContent = logText;
         logs.appendChild(log);
     });
