@@ -6,6 +6,7 @@ A real-time log streaming web application built using Node.js, Express.js and Se
 
 - **Live Demo:** https://logstream-5mzh.onrender.com
 - **GitHub Repository:** https://github.com/harshil291107/LogStream
+- **Demo Video:** [Watch the Demo](./Demo/live-video-demo.mp4)
 
 ## Features
 
@@ -19,6 +20,8 @@ A real-time log streaming web application built using Node.js, Express.js and Se
 - Supports multiple concurrent clients
 - Cleans up the stream when a client disconnects
 - Dark terminal-style interface
+- Log-level filtering
+- Download session logs
 
 ## Tech Stack
 
@@ -41,5 +44,7 @@ LogStream/
 │   ├── index.html
 │   ├── script.js
 │   └── style.css
+├── Demo/
+│   └── live-video-demo.mp4
 ├── .gitignore
 └── README.md
